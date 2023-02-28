@@ -108,6 +108,9 @@ type Options struct {
 	// XDS
 	XDSEnabled          bool
 	XDSRouterMiddleware endpoint.Middleware
+
+	// Reflection
+	ReflectionEnabled bool
 }
 
 // Apply applies all options.
